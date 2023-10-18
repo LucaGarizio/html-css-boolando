@@ -20,17 +20,13 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* debuf */
-    border: 1px solid black;
 }
 
 /* column */
 .nav-col{
-    height: 70px;
+    height: 50px;
     display: flex;
     align-items: center;
-    /* debug */
-    border: 1px solid black;
 }
 
 .col-sx{
@@ -44,13 +40,18 @@ nav{
     justify-content: center;
 }
 
+.col-cx a{
+    display: flex;
+    align-items: center;
+}
+
 .col-dx{
     width: 25%;
     justify-content: flex-end;
 }
 
 .col-cx img{
-    width: 200px;
+    width: 120px;
 }
 
 /* 1st & 3th nav columns content style */
@@ -71,5 +72,77 @@ nav{
     color: white;
 }
 
+/* main */
+.space{
+    padding-top: 100px;
+}
 
+/* row upper part style */
+.section-container{
+    width: 80%;
+    margin: 0 auto;
+    /* debug */
+    border: 1px solid black;  
+}
 
+/* MAIN */
+#container{
+    width: 80%;
+    margin: 0 auto;
+    /* DEBUG */
+    border: 1px solid black;
+    /* height: 500px; */
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    /* DEBUG */
+   
+}
+
+.col{
+    /* DEBUG */
+    width: calc(100% / 3);
+    border: 1px solid black;
+}
+
+.col-top{
+    position: relative;
+}
+
+.img{
+    background-image: url('../images/img/1.webp');
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+}
+
+.col-bottom{
+    
+}
+
+.heart-container{
+    background-color: white;
+    padding: 10px;
+    position: absolute;
+    top: 5px;
+    right: 0;
+    
+}
+
+.lable{
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    display: flex;
+}
+
+.red-lable{
+    margin-right: 10px;
+    background-color: red;
+}
+
+.green-lable{
+    background-color: green;
+}
