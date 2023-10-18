@@ -35,7 +35,6 @@ nav{
     justify-content: flex-start;
 }
 
-
 .col-cx{
     width: 60%;
     display: flex;
@@ -55,7 +54,6 @@ nav{
 .col-cx img{
     width: 150px;
 }
-
 
 /* 1st & 3th nav columns content style */
 .option > a{
@@ -83,7 +81,7 @@ nav{
 }
 
 .icons:hover a{
-    font-size: 20px;
+    font-size: 24px;
     color: black;
 }
 
@@ -130,7 +128,7 @@ nav{
     right: 0;   
 }
 
-.fa-heart:hover{
+.fa-solid.fa-heart:hover{
     color: red;
 }
 
