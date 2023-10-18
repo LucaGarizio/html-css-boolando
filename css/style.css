@@ -24,18 +24,20 @@ nav{
 
 /* column */
 .nav-col{
-    height: 50px;
+    height: 70px;
     display: flex;
     align-items: center;
+    padding: 0 10px;
 }
 
 .col-sx{
-    width: 25%;
+    width: 20%;
     justify-content: flex-start;
 }
 
+
 .col-cx{
-    width: 50%;
+    width: 60%;
     display: flex;
     justify-content: center;
 }
@@ -46,13 +48,14 @@ nav{
 }
 
 .col-dx{
-    width: 25%;
+    width: 20%;
     justify-content: flex-end;
 }
 
 .col-cx img{
-    width: 120px;
+    width: 150px;
 }
+
 
 /* 1st & 3th nav columns content style */
 .option > a{
@@ -60,21 +63,33 @@ nav{
     color: white;
 }
 
+.option:hover a{
+    font-size: 25px;
+    color: black;
+}
+
 .option{
     padding-right: 10px;
+    margin-right: 15px;
 }
 
 .icons{
-    padding-left: 10px;
+    margin-left: 10px;
 }
 
-.icons > a{
+.icons a{
     color: white;
+    margin-left: 15px;
+}
+
+.icons:hover a{
+    font-size: 20px;
+    color: black;
 }
 
 /* main */
 .space{
-    padding-top: 100px;
+    padding-top: 150px;
 }
 
 /* row upper part style */
@@ -89,31 +104,22 @@ nav{
 #container{
     width: 80%;
     margin: 0 auto;
-    /* DEBUG */
-    /* border: 1px solid black; */
-    /* height: 500px; */
 }
 
 .row{
     display: flex;
     justify-content: space-between;
-
-    /* DEBUG */
-   
+    padding-bottom: 50px;
 }
 
 .col{
-    /* DEBUG */
-    /* width: calc(100% / 3); */
-    /* border: 1px solid black; */
+   padding: 0 10px;
+   width: calc(100% / 3);
 }
 
 .col-top{
     position: relative;
-}
-
-.col-bottom{
-
+    
 }
 
 .heart-container{
@@ -124,9 +130,14 @@ nav{
     right: 0;   
 }
 
+.fa-heart:hover{
+    color: red;
+}
+
+/* lable style */
 .lable{
     position: absolute;
-    bottom: 40px;
+    bottom: 30px;
     left: 0;
     display: flex;
     color: white;
@@ -144,9 +155,9 @@ nav{
     padding: 5px;
 }
 
+/* img style */
 .img-container{
-    position: relative;
-    height: 400px;
+    position: relative;   
 }
 
 .img-container img{
@@ -168,9 +179,9 @@ nav{
 .line{
     text-decoration: line-through;
     padding-left: 5px;
+}
+
+.details span{
     font-size: 14px;
 }
 
-.fa-heart:hover{
-    color: red;
-}
