@@ -1,0 +1,75 @@
+/* regole generali */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* navbar */
+nav{
+    position: fixed;
+    width: 100%;
+    background-color: orange;
+    z-index: 500;
+}
+
+/* row */
+.nav-row{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* debuf */
+    border: 1px solid black;
+}
+
+/* column */
+.nav-col{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    /* debug */
+    border: 1px solid black;
+}
+
+.col-sx{
+    width: 25%;
+    justify-content: flex-start;
+}
+
+.col-cx{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.col-dx{
+    width: 25%;
+    justify-content: flex-end;
+}
+
+.col-cx img{
+    width: 200px;
+}
+
+/* 1st & 3th nav columns content style */
+.option > a{
+    text-decoration: none;
+    color: white;
+}
+
+.option{
+    padding-right: 10px;
+}
+
+.icons{
+    padding-left: 10px;
+}
+
+.icons > a{
+    color: white;
+}
+
+
+
